@@ -5,6 +5,7 @@ const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development
 
 module.exports = {
     mode: mode,
+    devtool: mode === 'development' && 'source-map' || '',
     entry: "./src/index.js",
     output: {
         filename: "bundle.[fullhash].js",
