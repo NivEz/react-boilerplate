@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './index.css';
 
 const App = () => (
     <h1>React boilerplate</h1>
