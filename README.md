@@ -7,6 +7,10 @@
 ```
 git clone https://github.com/NivEz/react-boilerplate.git <PROJECT_NAME_HERE>
 ```
+or without git history:
+```
+git clone --depth 1 https://github.com/NivEz/react-boilerplate.git <PROJECT_NAME_HERE>
+```
 
 2. Install dependencies:
 ```
