@@ -12,6 +12,11 @@ or without git history:
 git clone --depth 1 https://github.com/NivEz/react-boilerplate.git <PROJECT_NAME_HERE>
 ```
 
+To change the last commit after the clone you can use:
+```
+git commit --amend -m "YOUR UPDATED MESSAGE"
+```
+
 2. Install dependencies:
 ```
 yarn
