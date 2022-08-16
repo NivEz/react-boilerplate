@@ -7,15 +7,7 @@
 ```
 git clone https://github.com/NivEz/react-boilerplate.git <PROJECT_NAME_HERE>
 ```
-or without git history:
-```
-git clone --depth 1 https://github.com/NivEz/react-boilerplate.git <PROJECT_NAME_HERE>
-```
-
-To change the last commit after the clone you can use:
-```
-git commit --amend -m "YOUR UPDATED MESSAGE"
-```
+To remove git history just delete the `.git` folder and initialize new git with `git init` command.
 
 2. Install dependencies:
 ```
